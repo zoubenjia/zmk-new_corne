@@ -27,7 +27,6 @@
     trigger-period-ms = <16>;
 };
 
-
 / {
     behaviors {
         td0: td0 {
@@ -98,9 +97,9 @@
             // | TAB |  ^  |  &  |  *  |  (  |  )  |   |  (  |  )  |  [  |  ]  | {  |  }  |
             // | SHFT| USB | BLE |  ~  |  `  |     |   |  &  | "|" |  !  |  ~  | \  |  _  |
             //                   | SYM | CMD | SPC |   | ENT | CTRL| NUM |
-
+67809
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR  &kp PRCNT               &mmv MOVE_UP     &bt BT_SEL 0        &kp PLUS  &kp MINUS  &kp ASTRK  &kp FSLH   &kp CARET  &kp EQUAL
+&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR  &kp PRCNT               &mmv MOVE_UP                         &kp PLUS  &kp MINUS  &kp ASTRK  &kp FSLH   &kp CARET  &kp EQUAL
 &trans  &kp CARET     &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR     &mmv MOVE_LEFT  &mkp LCLK      &mmv MOVE_RIGHT  &kp LPAR  &kp RPAR   &kp LBKT   &kp RBKT   &kp LBRC   &kp RBRC
 &trans  &out OUT_USB  &out OUT_BLE  &kp TILDE  &kp GRAVE   &none     &kp C_MUTE      &mmv MOVE_DOWN                   &kp AMPS  &kp PIPE   &kp EXCL   &kp TILDE  &kp BSLH   &kp UNDER
                                     &trans     &trans    &trans       &trans    &trans     &kp LALT
@@ -127,3 +126,4 @@
         };
     };
 };
+678a!^===aaaa

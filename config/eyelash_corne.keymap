@@ -97,7 +97,7 @@
             // | TAB |  ^  |  &  |  *  |  (  |  )  |   |  (  |  )  |  [  |  ]  | {  |  }  |
             // | SHFT| USB | BLE |  ~  |  `  |     |   |  &  | "|" |  !  |  ~  | \  |  _  |
             //                   | SYM | CMD | SPC |   | ENT | CTRL| NUM |
-67809
+
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR  &kp PRCNT               &mmv MOVE_UP                         &kp PLUS  &kp MINUS  &kp ASTRK  &kp FSLH   &kp CARET  &kp EQUAL
 &trans  &kp CARET     &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR     &mmv MOVE_LEFT  &mkp LCLK      &mmv MOVE_RIGHT  &kp LPAR  &kp RPAR   &kp LBKT   &kp RBKT   &kp LBRC   &kp RBRC
